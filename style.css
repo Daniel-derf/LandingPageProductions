@@ -144,4 +144,15 @@ body{
 .rodape {
     display: flex;
     padding: 30px;
+    margin-top: 20px;
+    border-top: 2px dashed rgba(0, 0, 255, 0.612) ;
+}
+
+.rodape-marca {
+    display: block;
+    margin: 0 auto;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 255, 0.612);
+    
 }
