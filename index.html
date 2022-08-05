@@ -15,10 +15,10 @@
             <h1 class="titulo-2">Productions</h1>
         </div>
         <ul class="cabecalho-lista">
-            <a href="#"><li>Início</li></a>
-            <a href="#"><li>Exemplos</li></a>
-            <a href="#"><li>Sobre</li></a>
-            <a href="#" id="escolher-btn"><li>Escolher Produto</li></a>
+            <a href="#" class="lista-elemento"><li>Início</li></a>
+            <a href="#" class="lista-elemento"><li>Exemplos</li></a>
+            <a href="#" class="lista-elemento"><li>Sobre</li></a>
+            <a href="#" class="lista-elemento" id="escolher-btn"><li>Escolher Produto</li></a>
         </ul>  
     </header>
 
@@ -26,31 +26,33 @@
 
         <aside class="conteudo-principal">
 
-            <p class="principal-titulo"><h1>As melhores Landing Pages estão conosco!</h1></p>
+            <p class="principal-titulo"><h1>As melhores <span id="principal-highlight">Landing Pages</span> estão conosco!</h1></p>
             <p class="principal-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus impedit architecto est 
                 blanditiis debitis tempora assumenda earum repudiandae eaque voluptatibus odit nisi iste, accusamus fugiat fuga dolor 
                 minima sint praesentium.Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus impedit architecto est 
                 blanditiis debitis.
             </p>
 
-            <form>
-                <input type="text" placeholder="Nome">
-                <input type="email" placeholder="Email">
-                <input type="submit" value="Enviar >">
+            <form class="principal-formulario">
+                <input type="text" placeholder="Nome" class="form-element">
+                <input type="email" placeholder="Email" class="form-element">
+                <input type="submit" value="Enviar >" class="form-submit">
             </form>
 
         </aside>
 
-        <article>
-            <img src="#" alt="imagem-landingPage">
+        <article class="conteudo-imagem">
+            <img src="computador.jpg" alt="imagem-landingPage" id="imagem-img">
         </article>
 
 
     </main>
 
-    <footer>
+    <footer class="rodape">
 
-        <h1>Landing Page Productions</h1>
+        <div class="rodape-marca"><h1>Landing Page Productions</h1></div>
+
+        
 
     </footer>
     
